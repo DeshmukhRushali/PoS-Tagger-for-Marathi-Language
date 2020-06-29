@@ -260,7 +260,7 @@ mp=shuffle(mpos)
 
 
 print("POS tagger")
-size = int(len(marathi_sent) * 0.67)
+size = int(len(marathi_sent) * 0.80)
 tags = [tag for (word, tag) in indian.tagged_words('marathi_pos_rad_3NOV17.pos')]
 #print(tags)
 print(np.unique(tags))
